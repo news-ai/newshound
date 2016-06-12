@@ -15,7 +15,7 @@ import (
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/jprobinson/newshound"
+	"github.com/news-ai/newshound"
 )
 
 // https://github.com/golang/go/issues/3575 :(

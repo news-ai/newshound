@@ -3,7 +3,7 @@ package api
 import (
 	"time"
 
-	"github.com/jprobinson/newshound"
+	"github.com/news-ai/newshound"
 
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"

@@ -6,7 +6,7 @@ import (
 	"log"
 
 	"github.com/bitly/go-nsq"
-	"github.com/jprobinson/newshound"
+	"github.com/news-ai/newshound"
 )
 
 type Distributor struct {

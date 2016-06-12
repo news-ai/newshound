@@ -9,8 +9,8 @@ import (
 
 	"github.com/ChimeraCoder/anaconda"
 	"github.com/jprobinson/go-utils/utils"
-	"github.com/jprobinson/newshound"
-	"github.com/jprobinson/newshound/bark"
+	"github.com/news-ai/newshound"
+	"github.com/news-ai/newshound/bark"
 )
 
 const logPath = "/var/log/newshound/barkd.log"

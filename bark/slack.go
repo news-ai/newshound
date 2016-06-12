@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/jprobinson/newshound"
+	"github.com/news-ai/newshound"
 )
 
 type slackKey struct {

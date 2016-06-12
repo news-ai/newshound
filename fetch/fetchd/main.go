@@ -8,8 +8,8 @@ import (
 	"github.com/jprobinson/go-utils/utils"
 	"gopkg.in/mgo.v2"
 
-	"github.com/jprobinson/newshound"
-	"github.com/jprobinson/newshound/fetch"
+	"github.com/news-ai/newshound"
+	"github.com/news-ai/newshound/fetch"
 )
 
 const logPath = "/var/log/newshound/fetchd.log"

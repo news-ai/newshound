@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/jprobinson/newshound"
 	"github.com/m4rw3r/uuid"
+	"github.com/news-ai/newshound"
 )
 
 func AddWebSocketBarker(d *Distributor, port int, alerts, events bool) {

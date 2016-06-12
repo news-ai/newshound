@@ -8,8 +8,8 @@ import (
 	"github.com/jprobinson/go-utils/utils"
 	"github.com/jprobinson/go-utils/web"
 
-	"github.com/jprobinson/newshound"
-	"github.com/jprobinson/newshound/web/webserver/api"
+	"github.com/news-ai/newshound"
+	"github.com/news-ai/newshound/web/webserver/api"
 )
 
 func main() {

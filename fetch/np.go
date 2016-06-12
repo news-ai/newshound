@@ -11,7 +11,7 @@ import (
 	"golang.org/x/text/transform"
 	"golang.org/x/text/unicode/norm"
 
-	"github.com/jprobinson/newshound"
+	"github.com/news-ai/newshound"
 )
 
 type npResp struct {

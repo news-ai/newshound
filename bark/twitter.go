@@ -7,7 +7,7 @@ import (
 	"unicode/utf8"
 
 	"github.com/ChimeraCoder/anaconda"
-	"github.com/jprobinson/newshound"
+	"github.com/news-ai/newshound"
 	"golang.org/x/exp/utf8string"
 )
 

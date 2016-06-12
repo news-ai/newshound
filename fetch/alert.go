@@ -17,7 +17,7 @@ import (
 	"golang.org/x/net/html"
 	"gopkg.in/mgo.v2/bson"
 
-	"github.com/jprobinson/newshound"
+	"github.com/news-ai/newshound"
 )
 
 var Senders = map[string]bool{
