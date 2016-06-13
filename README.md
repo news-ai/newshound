@@ -10,3 +10,17 @@ To emit alert notifications to Slack, Twitter or WebSocket connections, [fetchd]
 There is also a [web server](https://github.com/news-ai/newshound/tree/master/web/webserver) that can host a [UI](https://github.com/news-ai/newshound/tree/master/web/frontend) and an [API](https://github.com/news-ai/newshound/tree/master/web/webserver/api) for displaying and sharing Newshound information.
 
 In addition, social media breaking news analysis was also added. A particular network we utilize is the [Reddit Breaking News](https://www.reddit.com/r/AskReddit/search?sort=new&restrict_sr=on&q=flair%3ABreaking%2BNews) tool using their [API](https://www.reddit.com/r/AskReddit/search.json?sort=new&restrict_sr=on&q=flair%3ABreaking%2BNews).
+
+### Install
+
+- Install MongoDB (`config.json`)
+- Intall NSQ (`config.json`)
+- `go get github.com/jprobinson/eazye`
+
+### Running
+
+- Run MongoDB
+- Run NSQ
+- Run NLP extractor (`/lib/np_extractor/service.py`)
+- Run bark (`/bark/barkd/main.go`)
+- Run fetch (`/fetch/fetchd/main.go`)

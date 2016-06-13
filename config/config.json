@@ -1,0 +1,30 @@
+{
+  "db-url": "",
+  "db-user": "",
+  "db-pw": "",
+  "mark_as_read": true,
+  "nsqd-addr": "",
+  "nsqlookup-addr": "",
+  "barkd-channel": "",
+  "slack-alerts": [
+    {
+      "key": "",
+      "bot": ""
+    }
+  ],
+  "slack-events": [
+    {
+      "key": "",
+      "bot": ""
+    }
+  ],
+  "twitter": [
+    {
+      "consumer-key": "",
+      "consumer-secret": "",
+      "access-token": "",
+      "access-token-secret": ""
+    }
+  ],
+  "ws-port": 0
+}
