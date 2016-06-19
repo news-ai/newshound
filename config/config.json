@@ -3,8 +3,13 @@
   "db-user": "",
   "db-pw": "",
   "mark_as_read": true,
-  "nsqd-addr": "",
-  "nsqlookup-addr": "",
+  "host": "imap.zoho.com",
+  "tls": true,
+  "user": "breaking@news.newsai.org",
+  "pwd": "$8At2HpTuZ3NNG+",
+  "folder": "",
+  "nsqd-addr": "127.0.0.1:4161",
+  "nsqlookup-addr": "127.0.0.1:4160",
   "barkd-channel": "",
   "slack-alerts": [
     {

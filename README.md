@@ -13,8 +13,8 @@ In addition, social media breaking news analysis was also added. A particular ne
 
 ### Install
 
-- Install MongoDB (`config.json`)
-- Intall NSQ (`config.json`)
+- [Install MongoDB](https://github.com/news-ai/configuration/blob/master/mongodb.md) (`config.json`)
+- [Intall NSQ](https://github.com/news-ai/configuration/blob/master/nsq.md) (`config.json`)
 - `go get github.com/jprobinson/eazye`
 
 ### Running
