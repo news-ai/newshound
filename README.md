@@ -9,7 +9,9 @@ To emit alert notifications to Slack, Twitter or WebSocket connections, [fetchd]
 
 There is also a [web server](https://github.com/news-ai/newshound/tree/master/web/webserver) that can host a [UI](https://github.com/news-ai/newshound/tree/master/web/frontend) and an [API](https://github.com/news-ai/newshound/tree/master/web/webserver/api) for displaying and sharing Newshound information.
 
-In addition, social media breaking news analysis was also added. A particular network we utilize is the [Reddit Breaking News](https://www.reddit.com/r/AskReddit/search?sort=new&restrict_sr=on&q=flair%3ABreaking%2BNews) tool using their [API](https://www.reddit.com/r/AskReddit/search.json?sort=new&restrict_sr=on&q=flair%3ABreaking%2BNews).
+### Future feature set
+
+Social media breaking news analysis: A particular network we utilize is the [Reddit Breaking News](https://www.reddit.com/r/AskReddit/search?sort=new&restrict_sr=on&q=flair%3ABreaking%2BNews) tool using their [API](https://www.reddit.com/r/AskReddit/search.json?sort=new&restrict_sr=on&q=flair%3ABreaking%2BNews).
 
 ### Install
 
