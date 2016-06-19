@@ -39,6 +39,8 @@ var Senders = map[string]bool{
 	"npr":                 true,
 	"time":                true,
 	"bloomberg.com":       true,
+	"nbcnewyork.com":      true,
+	"variety.com":         true,
 }
 
 func NewNewsAlert(msg eazye.Email, address string) (newshound.NewsAlert, error) {
