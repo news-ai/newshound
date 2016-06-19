@@ -26,3 +26,4 @@ In addition, social media breaking news analysis was also added. A particular ne
 - Run bark (`/bark/barkd/main.go`)
 - Run fetch (`/fetch/fetchd/main.go`)
 - Run webserver (`/web/webserver/server.go`)
+- Run frontend (`grunt build /web/frontend`)
