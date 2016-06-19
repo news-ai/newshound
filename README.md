@@ -25,3 +25,4 @@ In addition, social media breaking news analysis was also added. A particular ne
 - Copy `config/config.json` to `/opt/newshound/etc/config.json` (`cp config/config.json /opt/newshound/etc/config.json`)
 - Run bark (`/bark/barkd/main.go`)
 - Run fetch (`/fetch/fetchd/main.go`)
+- Run webserver (`/web/webserver/server.go`)
