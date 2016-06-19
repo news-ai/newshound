@@ -11,25 +11,5 @@
   "nsqd-addr": "127.0.0.1:4161",
   "nsqlookup-addr": "127.0.0.1:4160",
   "barkd-channel": "breakingnews",
-  // "slack-alerts": [
-  //   {
-  //     "key": "",
-  //     "bot": ""
-  //   }
-  // ],
-  // "slack-events": [
-  //   {
-  //     "key": "",
-  //     "bot": ""
-  //   }
-  // ],
-  // "twitter": [
-  //   {
-  //     "consumer-key": "",
-  //     "consumer-secret": "",
-  //     "access-token": "",
-  //     "access-token-secret": ""
-  //   }
-  // ],
   "ws-port": 0
 }

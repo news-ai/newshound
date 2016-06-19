@@ -22,5 +22,6 @@ In addition, social media breaking news analysis was also added. A particular ne
 - Run MongoDB
 - Run NSQ
 - Run NLP extractor (`/lib/np_extractor/service.py`)
+- Copy `config/config.json` to `/opt/newshound/etc/config.json` (`cp config/config.json /opt/newshound/etc/config.json`)
 - Run bark (`/bark/barkd/main.go`)
 - Run fetch (`/fetch/fetchd/main.go`)
