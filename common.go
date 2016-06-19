@@ -66,10 +66,12 @@ func (c *Config) MgoSession() (*mgo.Session, error) {
 	}
 
 	db := sess.DB("newshound")
-	err = db.Login(c.DBUser, c.DBPassword)
-	if err != nil {
-		log.Printf("Unable to connect to newshound db! - %s", err.Error())
-		return sess, err
+	if len(c.DBUser) > 0 && len(c.DBPassword) > 0 {
+		err = db.Login(c.DBUser, c.DBPassword)
+		if err != nil {
+			log.Printf("Unable to connect to newshound db! - %s", err.Error())
+			return sess, err
+		}
 	}
 	sess.SetMode(mgo.Eventual, true)
 	return sess, nil

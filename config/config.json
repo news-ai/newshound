@@ -1,5 +1,5 @@
 {
-  "db-url": "",
+  "db-url": "127.0.0.1",
   "db-user": "",
   "db-pw": "",
   "mark_as_read": true,
@@ -10,26 +10,26 @@
   "folder": "",
   "nsqd-addr": "127.0.0.1:4161",
   "nsqlookup-addr": "127.0.0.1:4160",
-  "barkd-channel": "",
-  "slack-alerts": [
-    {
-      "key": "",
-      "bot": ""
-    }
-  ],
-  "slack-events": [
-    {
-      "key": "",
-      "bot": ""
-    }
-  ],
-  "twitter": [
-    {
-      "consumer-key": "",
-      "consumer-secret": "",
-      "access-token": "",
-      "access-token-secret": ""
-    }
-  ],
+  "barkd-channel": "breakingnews",
+  // "slack-alerts": [
+  //   {
+  //     "key": "",
+  //     "bot": ""
+  //   }
+  // ],
+  // "slack-events": [
+  //   {
+  //     "key": "",
+  //     "bot": ""
+  //   }
+  // ],
+  // "twitter": [
+  //   {
+  //     "consumer-key": "",
+  //     "consumer-secret": "",
+  //     "access-token": "",
+  //     "access-token-secret": ""
+  //   }
+  // ],
   "ws-port": 0
 }
