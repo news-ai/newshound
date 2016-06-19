@@ -8,7 +8,7 @@
   "user": "breaking@news.newsai.org",
   "pwd": "$8At2HpTuZ3NNG+",
   "folder": "",
-  "nsqd-addr": "127.0.0.1:4161",
+  "nsqd-addr": "127.0.0.1:4150",
   "nsqlookup-addr": "127.0.0.1:4160",
   "barkd-channel": "breakingnews",
   "ws-port": 0
