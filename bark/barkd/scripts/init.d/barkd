@@ -4,7 +4,7 @@
 # description: Newshound's producer daemon service
 # processname: barkd 
 
-BIN_PATH=/opt/newshound/bin
+BIN_PATH=/home/api/go/bin
 SERVICE=$BIN_PATH/barkd
 PID_FILE=/var/run/barkd.pid
 
