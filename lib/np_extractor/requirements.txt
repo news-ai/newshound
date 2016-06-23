@@ -1,7 +1,0 @@
-beautifulsoup4==4.4.1
-nltk==3.2.1
-pymongo==3.2.2
-python-dateutil==2.5.3
-requests==2.10.0
-simplejson==3.8.2
-six==1.10.0
