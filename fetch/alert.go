@@ -40,7 +40,7 @@ var Senders = map[string]bool{
 	"time":                true,
 	"bloomberg.com":       true,
 	"nbcnewyork.com":      true,
-	"variety.com":         true,
+	"variety":             true,
 	"breakingnews.com":    true,
 }
 
